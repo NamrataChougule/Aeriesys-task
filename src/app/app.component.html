@@ -1,0 +1,18 @@
+<div style="text-align:center">
+  <h1>simple calc</h1>
+
+  <p><input type="number" name="num1" [(ngModel)]="num1"></p>
+  <p><input type="number" name="num2" [(ngModel)]="num2"></p>
+  <br>
+
+  <button (click)="add()">+</button>&nbsp;
+   <button (click)="sub()">-</button>&nbsp;
+   <button (click)="mul()">*</button>&nbsp;
+   <button (click)="div()">/</button>&nbsp;
+   <button (click)="mod()">%</button><br><br>
+
+  Result:<input name="text" value="{{result}}">
+  
+  
+  
+</div>
